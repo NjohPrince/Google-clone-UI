@@ -44,6 +44,10 @@ a:hover{
     align-items: center;
     height: 100%;
 }
+.logo img{
+    width: 275px; 
+    height: 95px
+}
 .input-section{
     position: relative;
     display: flex;
@@ -80,6 +84,13 @@ input:hover{
     cursor: pointer; 
     position: absolute; 
     right: 17px;
+}
+.buttons{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.2rem;
 }
 button{
     padding: 9px 17px;
@@ -144,10 +155,25 @@ button:hover{
     .ItemsAbove{
         margin-bottom: 5rem;
     }
+    .lower > .left > a,
+    .lower > .right > a{
+        font-size: 0.8rem;
+    }
+    .upper p{
+        font-size: 0.8rem;
+    }
 }
 @media screen and (max-width: 670px){
     .input-section{
         width: 90%;
+    }
+    button{
+        padding: 8px 15px;
+        font-size: 0.7rem;
+    }
+    .logo img{
+        width: 225px; 
+        height: 75px
     }
 }
 @media screen and (max-width: 580px){
