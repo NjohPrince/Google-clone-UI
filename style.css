@@ -101,7 +101,7 @@ button:hover{
 .footer{
     width: 100%;
     background-color: rgb(240, 240, 240);
-    margin-top: 55px;
+    margin-top: 40px;
 }
 .upper{
     width: 100%;
@@ -143,5 +143,15 @@ button:hover{
     }
     .ItemsAbove{
         margin-bottom: 5rem;
+    }
+}
+@media screen and (max-width: 670px){
+    .input-section{
+        width: 90%;
+    }
+}
+@media screen and (max-width: 580px){
+    .ItemsAbove.ItemsAbove{
+        margin-bottom: 3.5rem;
     }
 }
