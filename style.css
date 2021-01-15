@@ -48,12 +48,12 @@ a:hover{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 485px;
+    width: 600px;
     margin: 20px;
 }
 input{
-    padding: 18px;
-    border-radius: 40px;
+    padding: 1.4rem;
+    border-radius: 42px;
     height: 10px;
     width: 100%;
     outline: none;
