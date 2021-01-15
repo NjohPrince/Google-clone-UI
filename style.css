@@ -12,7 +12,7 @@
     flex-direction: column;
 }
 body{
-    background-color: white;
+    background-color: #f7f7f7;
 }
 a{
     text-decoration: none;
@@ -52,17 +52,17 @@ a:hover{
     margin: 20px;
 }
 input{
-    padding: 1.4rem;
+    
     border-radius: 42px;
-    height: 10px;
+    padding: 0.9rem;
     width: 100%;
     outline: none;
     border: 1px solid rgb(223, 222, 222);
     position: relative;
 }
 input[type=search]{
-    padding-left: 32px;
-     font-size: 13px;
+    padding-left: 43px;
+    font-size: 16px;
 }
 input:hover{
     box-shadow: 1px 1px 5px 1px rgb(216, 216, 216);
@@ -82,11 +82,11 @@ input:hover{
     right: 17px;
 }
 button{
-    padding: 7px 17px;
+    padding: 9px 17px;
     border-radius: 3px;
     border: none;
     margin: 3px;
-    font-size: 11px;
+    font-size: 0.9rem;
     cursor: pointer;
     border: 1px solid transparent;
     background-color: rgb(248, 248, 248);
@@ -96,7 +96,7 @@ button:hover{
     border: 1px solid rgb(204, 204, 204);
 }
 .text p{
-    font-size: 10px;
+    font-size: 0.8rem;
 }
 .footer{
     width: 100%;
