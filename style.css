@@ -25,6 +25,7 @@ a:hover{
     padding: 12px;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 4.5rem;
 }
 .items{
     display: flex;
@@ -48,13 +49,12 @@ a:hover{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 600px;
+    width: 590px;
     margin: 20px;
 }
 input{
-    
     border-radius: 42px;
-    padding: 0.9rem;
+    padding: 0.85rem;
     width: 100%;
     outline: none;
     border: 1px solid rgb(223, 222, 222);
@@ -101,7 +101,7 @@ button:hover{
 .footer{
     width: 100%;
     background-color: rgb(240, 240, 240);
-    margin-top: 85px;
+    margin-top: 55px;
 }
 .upper{
     width: 100%;
@@ -130,4 +130,18 @@ button:hover{
     margin-right: 21px;
     font-size: 0.9rem;
     color: rgb(116, 116, 116);
+}
+
+@media screen and (max-width: 805px){
+    .lower{
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
+    .lower > .right{
+        margin: 0;
+        margin-bottom: 1.5rem;
+    }
+    .ItemsAbove{
+        margin-bottom: 5rem;
+    }
 }
